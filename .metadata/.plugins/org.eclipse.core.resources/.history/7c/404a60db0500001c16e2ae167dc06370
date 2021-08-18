@@ -1,0 +1,33 @@
+package com.shop.val.impl;
+
+import com.customer.dao.CustomerDao;
+import com.customer.dao.impl.Customerdaoimpl;
+import com.main.shop.model.Customer;
+import com.shop.exception.BusinessException;
+import com.shop.val.ShopVal;
+
+public class Shopvalimpl implements ShopVal {
+	CustomerDao customerDao=new Customerdaoimpl();
+
+	@Override
+	public int registerCustomer(Customer customer) throws BusinessException {
+		int p = 0;
+        p = customerDao.registerCustomer(customer);
+
+        return p;
+	}
+
+	@Override
+	public boolean isUserAlreadyValid(String ct_username) throws BusinessException {
+		if(ct_username)
+		
+		return false;
+	}
+
+	@Override
+	public boolean ispasswaordAlreadyValid(String ct_password) throws BusinessException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

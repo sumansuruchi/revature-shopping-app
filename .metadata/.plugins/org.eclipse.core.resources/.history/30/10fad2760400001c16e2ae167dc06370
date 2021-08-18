@@ -1,0 +1,17 @@
+package com.customer.dao;
+
+import com.main.shop.model.Customer;
+import com.shop.exception.BusinessException;
+
+public interface CustomerDao {
+	int registerCustomer(Customer customer)throws BusinessException;
+	boolean isUserAlreadyValid(String customerusername) throws BusinessException;
+	boolean ispasswaordAlreadyValid(String  customerPassword) throws BusinessException;
+	
+	
+	
+	
+	
+	
+
+}
