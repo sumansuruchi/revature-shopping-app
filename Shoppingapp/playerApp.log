@@ -580,3 +580,270 @@ Returning to Main Menu...
 [main] 2021-08-19 17:48:46 INFO  com.main.ProductCategoryPage  - | 2. Inverter
 [main] 2021-08-19 17:48:46 INFO  com.main.ProductCategoryPage  - | 3. Refrigerator
 [main] 2021-08-19 17:48:46 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 18:28:09 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 18:28:09 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 18:28:09 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 18:28:09 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 18:28:09 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 18:28:09 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 18:28:09 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 18:28:20 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 18:28:20 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 18:28:37 INFO  com.main.Main  - Enter password
+[main] 2021-08-19 18:28:46 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 18:28:46 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 18:28:46 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 18:28:46 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 18:28:46 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 18:28:46 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 18:28:46 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 18:28:50 INFO  com.main.Main  -  All category 
+[main] 2021-08-19 18:28:50 INFO  com.main.Main  - ProductCategory [productCategoryId=1, productCategoryName=Electronics]
+[main] 2021-08-19 18:28:50 INFO  com.main.Main  - ProductCategory [productCategoryId=2, productCategoryName=Mobiles]
+[main] 2021-08-19 18:28:50 INFO  com.main.Main  - ProductCategory [productCategoryId=3, productCategoryName=Grocery]
+[main] 2021-08-19 18:28:50 INFO  com.main.Main  - ProductCategory [productCategoryId=4, productCategoryName=Furniture]
+[main] 2021-08-19 18:28:56 INFO  com.main.ProductCategoryPage  - Electronics
+[main] 2021-08-19 18:28:57 INFO  com.main.ProductCategoryPage  -  1. Tv
+[main] 2021-08-19 18:28:57 INFO  com.main.ProductCategoryPage  -  2. Inverter
+[main] 2021-08-19 18:28:57 INFO  com.main.ProductCategoryPage  -  3. Refrigerator
+[main] 2021-08-19 18:28:57 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 18:29:01 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 18:29:01 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 18:29:01 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 18:29:01 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 18:29:01 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 18:32:18 INFO  com.main.Main  -  All category 
+[main] 2021-08-19 18:32:18 INFO  com.main.Main  - ProductCategory [productCategoryId=1, productCategoryName=Electronics]
+[main] 2021-08-19 18:32:18 INFO  com.main.Main  - ProductCategory [productCategoryId=2, productCategoryName=Mobiles]
+[main] 2021-08-19 18:32:18 INFO  com.main.Main  - ProductCategory [productCategoryId=3, productCategoryName=Grocery]
+[main] 2021-08-19 18:32:18 INFO  com.main.Main  - ProductCategory [productCategoryId=4, productCategoryName=Furniture]
+[main] 2021-08-19 18:32:25 INFO  com.main.ProductCategoryPage  - Mobile
+[main] 2021-08-19 18:32:25 INFO  com.main.ProductCategoryPage  -  1. Tv
+[main] 2021-08-19 18:32:25 INFO  com.main.ProductCategoryPage  -  2. Inverter
+[main] 2021-08-19 18:32:25 INFO  com.main.ProductCategoryPage  -  3. Refrigerator
+[main] 2021-08-19 18:32:25 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 18:32:33 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 18:32:33 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 18:32:33 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 18:32:33 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 18:32:33 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 18:32:38 INFO  com.main.Main  -  All category 
+[main] 2021-08-19 18:32:38 INFO  com.main.Main  - ProductCategory [productCategoryId=1, productCategoryName=Electronics]
+[main] 2021-08-19 18:32:38 INFO  com.main.Main  - ProductCategory [productCategoryId=2, productCategoryName=Mobiles]
+[main] 2021-08-19 18:32:38 INFO  com.main.Main  - ProductCategory [productCategoryId=3, productCategoryName=Grocery]
+[main] 2021-08-19 18:32:38 INFO  com.main.Main  - ProductCategory [productCategoryId=4, productCategoryName=Furniture]
+[main] 2021-08-19 18:32:42 INFO  com.main.ProductCategoryPage  - Grocery
+[main] 2021-08-19 18:32:42 INFO  com.main.ProductCategoryPage  -  1. Tv
+[main] 2021-08-19 18:32:42 INFO  com.main.ProductCategoryPage  -  2. Inverter
+[main] 2021-08-19 18:32:42 INFO  com.main.ProductCategoryPage  -  3. Refrigerator
+[main] 2021-08-19 18:32:42 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 21:22:28 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:22:28 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:22:28 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:22:28 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:22:28 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:22:28 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:22:28 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:22:51 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:22:51 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:23:13 WARN  com.customer.dao.impl.Customerdaoimpl  - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[main] 2021-08-19 21:23:13 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:23:13 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:23:13 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:23:13 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:23:13 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:23:13 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:23:13 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:24:35 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:24:35 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:24:35 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:24:35 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:24:35 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:24:35 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:24:35 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:24:41 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:24:41 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:24:59 INFO  com.main.Main  - Enter password
+[main] 2021-08-19 21:25:09 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:25:09 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:25:09 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:25:09 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:25:09 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:25:09 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:25:09 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:25:14 INFO  com.main.Main  -  All category 
+[main] 2021-08-19 21:25:14 INFO  com.main.Main  - ProductCategory [productCategoryId=1, productCategoryName=Electronics]
+[main] 2021-08-19 21:25:14 INFO  com.main.Main  - ProductCategory [productCategoryId=2, productCategoryName=Mobiles]
+[main] 2021-08-19 21:25:14 INFO  com.main.Main  - ProductCategory [productCategoryId=3, productCategoryName=Grocery]
+[main] 2021-08-19 21:25:14 INFO  com.main.Main  - ProductCategory [productCategoryId=4, productCategoryName=Furniture]
+[main] 2021-08-19 21:25:19 INFO  com.main.ProductCategoryPage  - 1)Electories
+[main] 2021-08-19 21:25:19 INFO  com.main.ProductCategoryPage  - 2)Mobiles
+[main] 2021-08-19 21:25:19 INFO  com.main.ProductCategoryPage  - 3)Grocery
+[main] 2021-08-19 21:25:19 INFO  com.main.ProductCategoryPage  - 4)Furniture
+[main] 2021-08-19 21:25:19 INFO  com.main.ProductCategoryPage  - Mobile
+[main] 2021-08-19 21:25:20 INFO  com.main.ProductCategoryPage  -  1. Tv
+[main] 2021-08-19 21:25:20 INFO  com.main.ProductCategoryPage  -  2. Inverter
+[main] 2021-08-19 21:25:20 INFO  com.main.ProductCategoryPage  -  3. Refrigerator
+[main] 2021-08-19 21:25:20 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  - 1)Electories
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  - 2)Mobiles
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  - 3)Grocery
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  - 4)Furniture
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  - Mobile
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  -  1. Tv
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  -  2. Inverter
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  -  3. Refrigerator
+[main] 2021-08-19 21:25:36 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 21:28:23 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:28:23 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:28:23 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:28:23 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:28:23 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:28:23 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:28:23 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:28:30 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:28:30 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:28:45 INFO  com.main.Main  - Enter password
+[main] 2021-08-19 21:28:53 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:28:53 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:28:53 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:28:53 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:28:53 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:28:53 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:28:53 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:28:58 INFO  com.main.Main  -  All category 
+[main] 2021-08-19 21:28:58 INFO  com.main.Main  - ProductCategory [productCategoryId=1, productCategoryName=Electronics]
+[main] 2021-08-19 21:28:58 INFO  com.main.Main  - ProductCategory [productCategoryId=2, productCategoryName=Mobiles]
+[main] 2021-08-19 21:28:58 INFO  com.main.Main  - ProductCategory [productCategoryId=3, productCategoryName=Grocery]
+[main] 2021-08-19 21:28:58 INFO  com.main.Main  - ProductCategory [productCategoryId=4, productCategoryName=Furniture]
+[main] 2021-08-19 21:29:06 INFO  com.main.ProductCategoryPage  - Mobile
+[main] 2021-08-19 21:29:06 INFO  com.main.ProductCategoryPage  -  1. Tv
+[main] 2021-08-19 21:29:06 INFO  com.main.ProductCategoryPage  -  2. Inverter
+[main] 2021-08-19 21:29:06 INFO  com.main.ProductCategoryPage  -  3. Refrigerator
+[main] 2021-08-19 21:29:06 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 21:30:50 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:30:50 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:30:50 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:30:50 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:30:50 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:30:50 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:30:50 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:30:51 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:30:51 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:30:51 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:30:51 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:30:51 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:30:51 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:30:51 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:31:05 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:31:05 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:31:30 WARN  com.customer.dao.impl.Customerdaoimpl  - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[main] 2021-08-19 21:31:30 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:31:30 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:31:30 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:31:30 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:31:30 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:31:30 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:31:30 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:31:47 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:31:47 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:31:47 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:31:47 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:31:47 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:31:47 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:31:47 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:31:52 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:31:52 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:32:10 INFO  com.main.Main  - Enter password
+[main] 2021-08-19 21:32:22 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:32:22 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:32:22 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:32:22 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:32:22 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:32:22 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:32:22 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:32:27 INFO  com.main.Main  -  All category 
+[main] 2021-08-19 21:32:28 INFO  com.main.Main  - ProductCategory [productCategoryId=1, productCategoryName=Electronics]
+[main] 2021-08-19 21:32:28 INFO  com.main.Main  - ProductCategory [productCategoryId=2, productCategoryName=Mobiles]
+[main] 2021-08-19 21:32:28 INFO  com.main.Main  - ProductCategory [productCategoryId=3, productCategoryName=Grocery]
+[main] 2021-08-19 21:32:28 INFO  com.main.Main  - ProductCategory [productCategoryId=4, productCategoryName=Furniture]
+[main] 2021-08-19 21:32:40 INFO  com.main.ProductCategoryPage  - Mobile
+[main] 2021-08-19 21:32:41 INFO  com.main.ProductCategoryPage  -  4. RealMe
+[main] 2021-08-19 21:32:41 INFO  com.main.ProductCategoryPage  -  5. Oneplus
+[main] 2021-08-19 21:32:41 INFO  com.main.ProductCategoryPage  -  6. iphone
+[main] 2021-08-19 21:32:41 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 21:32:58 INFO  com.main.ProductCategoryPage  - Mobile
+[main] 2021-08-19 21:32:58 INFO  com.main.ProductCategoryPage  -  4. RealMe
+[main] 2021-08-19 21:32:58 INFO  com.main.ProductCategoryPage  -  5. Oneplus
+[main] 2021-08-19 21:32:58 INFO  com.main.ProductCategoryPage  -  6. iphone
+[main] 2021-08-19 21:32:58 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-19 21:36:33 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:36:33 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:36:33 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:36:33 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:36:33 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:36:33 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:36:33 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:36:54 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:36:54 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:37:20 WARN  com.customer.dao.impl.Customerdaoimpl  - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[main] 2021-08-19 21:37:20 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:37:20 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:37:20 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:37:20 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:37:20 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:37:20 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:37:20 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:37:46 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:37:46 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:37:46 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:37:46 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:37:46 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:37:46 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:37:46 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:37:54 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:37:54 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:38:17 WARN  com.customer.dao.impl.Customerdaoimpl  - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[main] 2021-08-19 21:38:17 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:38:17 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:38:17 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:38:17 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:38:17 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:38:17 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:38:17 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:38:32 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 21:38:32 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 21:38:32 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 21:38:32 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 21:38:32 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 21:38:32 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 21:38:32 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 21:38:38 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 21:38:38 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 21:38:55 INFO  com.main.Main  - Enter password
+[main] 2021-08-19 21:39:05 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 21:39:05 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 21:39:05 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-19 21:39:05 INFO  com.main.Main  - 2) My order
+[main] 2021-08-19 21:39:05 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-19 21:39:05 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-19 21:39:05 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-19 21:39:09 INFO  com.main.Main  -  All category 
+[main] 2021-08-19 21:39:09 INFO  com.main.Main  - 1) Electronics
+[main] 2021-08-19 21:39:09 INFO  com.main.Main  - 2) Mobiles
+[main] 2021-08-19 21:39:10 INFO  com.main.Main  - 3) Grocery
+[main] 2021-08-19 21:39:10 INFO  com.main.Main  - 4) Furniture
+[main] 2021-08-19 21:39:10 INFO  com.main.Main  - Enter your choice 
+[main] 2021-08-19 21:39:17 INFO  com.main.ProductCategoryPage  - Furniture
+[main] 2021-08-19 21:39:18 INFO  com.main.ProductCategoryPage  -  10. Studytable
+[main] 2021-08-19 21:39:18 INFO  com.main.ProductCategoryPage  -  11. Chair
+[main] 2021-08-19 21:39:18 INFO  com.main.ProductCategoryPage  -  12. Bed
+[main] 2021-08-19 21:39:18 INFO  com.main.ProductCategoryPage  - Enter your choice...

@@ -1,0 +1,10 @@
+package com.main.shop.model;
+
+public class Order {
+	private int orderId;
+    private double orderTotal;
+    private int quantity;
+    private OrderStatus orderStatus;
+	
+
+}

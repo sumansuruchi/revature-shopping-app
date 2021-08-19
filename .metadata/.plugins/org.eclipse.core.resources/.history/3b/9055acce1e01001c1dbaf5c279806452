@@ -1,0 +1,5 @@
+package com.main.shop.model;
+
+public class OrderStatus {
+
+}

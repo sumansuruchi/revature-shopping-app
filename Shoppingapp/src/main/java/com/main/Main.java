@@ -15,7 +15,6 @@ import com.shop.exception.BusinessException;
 
 public class Main {
 	private static Logger log = Logger.getLogger(Main.class);
-	
 
 	public static void main(String[] args) {
 		ProductCategoryRepository productCategoryRepository = new ProductCategorySearch();
@@ -42,7 +41,7 @@ public class Main {
 				try {
 					Customer customer = new Customer();
 					log.info("Enter Customer username ");
-					String customerUsername= scanner.nextLine();
+					String customerUsername = scanner.nextLine();
 
 					if (customerDao.isUserAlreadyExist(customerUsername)) {
 						customer.setCustomerUsername(customerUsername);
@@ -52,7 +51,7 @@ public class Main {
 							customer.setCustomerPassword(customerPassword);
 						}
 					}
-					log.info("login sucessfull welcome  " + customerUsername  );
+					log.info("login sucessfull welcome  " + customerUsername);
 					log.info("what you wanna do");
 					int option = 0;
 					do {
@@ -70,20 +69,18 @@ public class Main {
 						switch (option) {
 						case 1:
 							log.info(" All category ");
-							
-							 List<ProductCategory>  productCategoryList= productCategoryRepository.viewCategory();
-							 for(ProductCategory  productCategory: productCategoryList)
-							 {
-								 log.info(productCategory);
-							 }
-							 int productCategoryOption=Integer.parseInt(scanner.nextLine());
-							 
-							 
-							 productCategoryPage.productCategoryList(productCategoryOption);
-							 
-								
 
+							List<ProductCategory> productCategoryList = productCategoryRepository.viewCategory();
+							for (ProductCategory productCategory : productCategoryList) {
+								log.info(productCategory.getProductCategoryId()+") " +productCategory.getProductCategoryName());
 								
+							}
+							log.info("Enter your choice ");
+							
+							int productCategoryOption = Integer.parseInt(scanner.nextLine());
+
+							productCategoryPage.productCategoryList(productCategoryOption);
+
 							break;
 						case 2:
 							log.info("My order");
@@ -119,7 +116,7 @@ public class Main {
 					log.info("Enter Customer username ");
 					String customerName = scanner.nextLine();
 					customer.setCustomerName(customerName);
-					
+
 					log.info("Enter Customer username ");
 					String customerUsername = scanner.nextLine();
 					if (!customerDao.isUserAlreadyExist(customerUsername) && customerUsername.matches("[a-z]{6,20}")) {

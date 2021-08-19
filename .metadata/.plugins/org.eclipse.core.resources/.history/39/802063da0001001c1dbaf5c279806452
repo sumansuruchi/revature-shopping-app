@@ -1,0 +1,17 @@
+package com.dao.impl;
+
+import java.util.List;
+
+import com.dao.ProductDAO;
+import com.main.shop.model.Product;
+import com.shop.exception.BusinessException;
+
+public class ProductDAOImpl  implements  ProductDAO{
+
+	@Override
+	public List<Product> viewProduct(int productCategory) throws BusinessException {
+		
+		return null;
+	}
+
+}

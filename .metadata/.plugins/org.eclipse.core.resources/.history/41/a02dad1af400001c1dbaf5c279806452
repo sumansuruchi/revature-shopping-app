@@ -1,0 +1,8 @@
+package com.main;
+
+import org.apache.log4j.Logger;
+
+public class CartPage {
+	private static Logger log = Logger.getLogger(CartPage.class);
+
+}
