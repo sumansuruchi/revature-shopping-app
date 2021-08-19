@@ -1,0 +1,6 @@
+package com.service;
+import 
+
+public class ProductCategorySearch  implements PrdouctCategoryRepository{
+
+}

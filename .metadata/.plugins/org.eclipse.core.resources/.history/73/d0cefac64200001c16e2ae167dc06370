@@ -1,0 +1,102 @@
+package com.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import com.customer.dao.CustomerDao;
+import com.customer.dao.impl.Customerdaoimpl;
+import com.main.shop.model.Customer;
+import com.shop.exception.BusinessException;
+
+public class Main {
+	private static Logger log = Logger.getLogger(Main.class);
+
+	public static void main(String[] args) {
+		CustomerDao customerDao = new Customerdaoimpl();
+		Scanner scanner = new Scanner(System.in);
+		log.info("Welcome to My Shopping app ");
+		int ch = 0;
+		do {
+			log.info("Welcome to Main Menu ");
+			log.info("1)Login as customer ");
+			log.info("2)Login as Employee ");
+			log.info("3)Register as customer ");
+			log.info("4)exit ");
+			log.info("5)Please enter your choice(1-4)");
+
+			try {
+				ch = Integer.parseInt(scanner.nextLine());
+			} catch (NumberFormatException e) {
+			}
+			switch (ch) {
+			case 1:
+				log.info("login as a customer");
+				try {
+					Customer customer = new Customer();
+					log.info("Enter Customer username ");
+					String ct_username = scanner.nextLine();
+
+					if (customerDao.isUserAlreadyExist(ct_username)) {
+						customer.setCt_username(ct_username);
+						log.info("Enter password");
+						String ct_password = scanner.nextLine();
+						if (customerDao.isPasswaordAlreadyExist(ct_password)) {
+							customer.setCt_password(ct_password);
+						}
+					}
+					log.info("login sucessfull welcome  " + ct_username);
+				} catch (BusinessException e) {
+					log.warn(e.getMessage());
+					log.info("\nReturning to Main Menu...");
+				}
+
+				break;
+			case 2:
+				log.info("work in progress");
+				break;
+			case 3:
+				log.info("Register Customer");
+				try {
+					Customer customer = new Customer();
+					log.info("Enter Customer Details ");
+
+					log.info("Enter Customer username ");
+					String ct_username = scanner.nextLine();
+					if (!customerDao.isUserAlreadyExist(ct_username) && ct_username.matches("[a-z]{6,20}")) {
+
+						customer.setCt_username(ct_username);
+
+						log.info("Enter Customer password ");
+						String ct_password = scanner.nextLine();
+						if (ct_password.matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&-+=()]).{8,20}$")) {
+							customer.setCt_password(ct_password);
+							int p = customerDao.registerCustomer(customer);
+							if (p == 1) {
+								log.info("Customer regestier successfully!!!");
+								log.info("\nReturning to Main Menu...");
+							}
+
+						}
+					}
+
+				} catch (BusinessException e) {
+					log.warn(e.getMessage());
+					log.info("\nReturning to Main Menu...");
+				}
+
+				break;
+			case 4:
+				log.info("Nice to meet you");
+				break;
+			default:
+				log.warn("Invalid choice... Choice should be only number between 1-4 only ");
+				break;
+
+			}
+
+		} while (ch != 4);
+
+	}
+
+}

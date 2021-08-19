@@ -1,0 +1,19 @@
+package com.service;
+import java.util.List;
+
+import com.main.shop.model.ProductCategory;
+import com.repository.*;
+
+public class ProductCategorySearch  implements ProductCategoryRepository{
+
+	@Override
+	public List<ProductCategory> viewCategory() {
+		List<ProductCategory> productCategoriesList=null;
+		
+		
+		
+	
+		return productCategoriesList;
+	}
+
+}

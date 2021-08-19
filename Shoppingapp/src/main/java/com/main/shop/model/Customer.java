@@ -1,34 +1,44 @@
 package com.main.shop.model;
 
 public class Customer {
-	private int ct_id;
-	private String ct_username;
-	private String ct_password;
+	private int customerId;
+	private String customerName;
+	private String customerUsername;
+	private String customerPassword;
 	public Customer() {
 		
 	}
-	public int getCt_id() {
-		return ct_id;
+	public int getCustomerId() {
+		return customerId;
 	}
-	public void setCt_id(int ct_id) {
-		this.ct_id = ct_id;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
-	public String getCt_username() {
-		return ct_username;
+	public String getCustomerName() {
+		return customerName;
 	}
-	public void setCt_username(String ct_username) {
-		this.ct_username = ct_username;
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
 	}
-	public String getCt_password() {
-		return ct_password;
+	public String getCustomerUsername() {
+		return customerUsername;
 	}
-	public void setCt_password(String ct_password) {
-		this.ct_password = ct_password;
+	public void setCustomerUsername(String customerUsername) {
+		this.customerUsername = customerUsername;
+	}
+	public String getCustomerPassword() {
+		return customerPassword;
+	}
+	public void setCustomerPassword(String customerPassword) {
+		this.customerPassword = customerPassword;
 	}
 	@Override
 	public String toString() {
-		return "Customer [ct_id=" + ct_id + ", ct_username=" + ct_username + ", ct_password=" + ct_password + "]";
+		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", customerUsername="
+				+ customerUsername + ", customerPassword=" + customerPassword + "]";
 	}
+	
+	
 	
 	
 	

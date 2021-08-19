@@ -19,10 +19,11 @@ public class Customerdaoimpl implements CustomerDao {
 	public int registerCustomer(Customer customer) throws BusinessException {
 		int successful;
 		try (Connection connection = Mysqlconnection.getConnection()) {
-			String sql = "insert into  customer(ct_username,ct_password) values (?,?)";
+			String sql = "insert into  customer(customerName,customerUsername,customerPassword) values (?,?,?)";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			preparedStatement.setString(1, customer.getCt_username());
-			preparedStatement.setString(2, customer.getCt_password());
+			preparedStatement.setString(1, customer.getCustomerName());
+			preparedStatement.setString(2, customer.getCustomerUsername());
+			preparedStatement.setString(3, customer.getCustomerPassword());
 
 			successful = preparedStatement.executeUpdate();
 			if (successful != 1) {
@@ -38,11 +39,11 @@ public class Customerdaoimpl implements CustomerDao {
 	}
 
 	@Override
-	public boolean isUserAlreadyExist(String ct_username) throws BusinessException {
+	public boolean isUserAlreadyExist(String customerUsername) throws BusinessException {
 		try(Connection connection=Mysqlconnection.getConnection()){
-			String sql="select ct_username from customer where ct_username=?";
+			String sql="select  customerUsername from  customer where customerUsername=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			preparedStatement.setString(1,ct_username);
+			preparedStatement.setString(1,customerUsername);
 			
 			ResultSet resultset=preparedStatement.executeQuery();
 			if(resultset.next()) {
@@ -60,11 +61,11 @@ public class Customerdaoimpl implements CustomerDao {
 	}
 
 	@Override
-	public boolean isPasswaordAlreadyExist(String ct_password) throws BusinessException {
+	public boolean isPasswaordAlreadyExist(String customerPassword) throws BusinessException {
 		try(Connection connection=Mysqlconnection.getConnection()){
-			String sql="select ct_password from customer where ct_password=?";
+			String sql="select customerPassword from customer where customerPassword=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			preparedStatement.setString(1,ct_password);
+			preparedStatement.setString(1,customerPassword);
 			ResultSet resultSet=preparedStatement.executeQuery();
 			if(resultSet.next()) {
 				return true;

@@ -169,3 +169,277 @@ Returning to Main Menu...
 [main] 2021-08-18 16:18:21 INFO  com.main.Main  - Enter Customer Details 
 [main] 2021-08-18 16:18:21 INFO  com.main.Main  - Enter Customer username 
 [main] 2021-08-18 16:18:58 INFO  com.main.Main  - Enter Customer password 
+[main] 2021-08-18 16:19:37 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 16:19:37 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 16:19:37 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 16:19:37 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 16:19:37 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 16:19:37 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 16:19:37 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 16:19:43 INFO  com.main.Main  - Register Customer
+[main] 2021-08-18 16:19:43 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-18 16:19:43 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 16:20:04 INFO  com.main.Main  - Enter Customer password 
+[main] 2021-08-18 16:36:16 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 16:36:16 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 16:36:16 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 16:36:16 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 16:36:16 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 16:36:16 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 16:36:16 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 16:36:58 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 16:36:58 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 16:36:58 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 16:36:58 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 16:36:58 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 16:36:58 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 16:36:58 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 16:37:19 INFO  com.main.Main  - Register Customer
+[main] 2021-08-18 16:37:19 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-18 16:37:19 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 16:37:37 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 16:37:37 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 16:37:37 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 16:37:37 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 16:37:37 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 16:37:37 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 20:48:41 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 20:48:41 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 20:48:41 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 20:48:41 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 20:48:41 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 20:48:41 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 20:48:41 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 20:49:49 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 20:49:49 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 20:50:14 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 20:50:38 INFO  com.main.Main  - login sucessfull welcomegudia
+[main] 2021-08-18 20:50:38 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 20:50:38 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 20:50:38 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 20:50:38 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 20:50:38 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 20:50:38 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 20:50:57 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 20:50:57 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 20:50:57 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 20:50:57 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 20:50:57 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 20:50:57 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 20:50:57 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 20:51:09 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 20:51:09 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 20:51:17 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 20:51:23 INFO  com.main.Main  - login sucessfull welcome  gudia
+[main] 2021-08-18 20:51:23 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 20:51:23 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 20:51:23 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 20:51:23 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 20:51:23 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 20:51:23 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 20:52:33 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 20:52:33 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 20:52:40 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 20:52:43 INFO  com.main.Main  - login sucessfull welcome  Suruchi
+[main] 2021-08-18 20:52:43 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 20:52:43 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 20:52:43 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 20:52:43 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 20:52:43 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 20:52:43 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 22:09:06 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 22:09:06 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 22:09:06 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 22:09:06 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 22:09:06 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 22:09:06 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 22:09:06 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 22:09:27 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 22:09:27 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 22:09:40 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 22:09:52 INFO  com.main.Main  - login sucessfull welcome  Suruchi
+[main] 2021-08-18 22:09:52 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-18 22:09:52 INFO  com.main.Main  - 1)product view 
+[main] 2021-08-18 22:09:52 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 22:09:52 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 22:09:52 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 22:10:11 INFO  com.main.Main  - product view
+[main] 2021-08-18 22:10:11 INFO  com.main.Main  - 1)product view 
+[main] 2021-08-18 22:10:11 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 22:10:11 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 22:10:11 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 22:45:56 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 22:45:56 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 22:45:56 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 22:45:57 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 22:45:57 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 22:45:57 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 22:45:57 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 22:46:15 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 22:46:15 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 22:46:33 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 22:46:48 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-18 22:46:48 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-18 22:46:48 INFO  com.main.Main  - 1)product view 
+[main] 2021-08-18 22:46:48 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 22:46:48 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 22:46:48 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 22:46:55 INFO  com.main.Main  - product view
+[main] 2021-08-18 22:46:55 INFO  com.main.Main  - 1)product view 
+[main] 2021-08-18 22:46:55 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 22:46:55 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 22:46:55 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 23:26:30 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 23:26:30 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 23:26:30 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 23:26:30 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 23:26:30 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 23:26:30 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 23:26:30 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 23:27:00 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 23:27:00 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 23:27:13 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 23:27:25 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-18 23:27:25 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-18 23:27:25 INFO  com.main.Main  - 1)search product 
+[main] 2021-08-18 23:27:25 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 23:27:25 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 23:27:25 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 23:27:36 INFO  com.main.Main  - welocome to product search
+[main] 2021-08-18 23:27:36 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:27:36 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:27:36 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:27:36 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-18 23:27:44 WARN  com.main.Main  - Invalid choice..choice should be only between 1-4 only
+[main] 2021-08-18 23:27:44 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:27:44 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:27:44 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:27:44 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-18 23:31:29 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 23:31:29 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 23:31:29 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 23:31:29 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 23:31:29 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 23:31:29 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 23:31:29 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 23:31:48 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 23:31:48 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 23:32:00 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 23:32:08 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-18 23:32:08 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-18 23:32:08 INFO  com.main.Main  - 1)search product 
+[main] 2021-08-18 23:32:08 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 23:32:08 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 23:32:08 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 23:32:12 INFO  com.main.Main  - welocome to product search
+[main] 2021-08-18 23:32:12 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:32:12 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:32:12 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:32:12 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-18 23:32:16 WARN  com.main.Main  - Invalid choice..choice should be only between 1-4 only
+[main] 2021-08-18 23:32:16 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:32:16 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:32:16 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:32:16 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-18 23:33:02 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 23:33:02 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 23:33:02 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 23:33:02 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 23:33:02 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 23:33:02 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 23:33:02 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 23:33:14 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 23:33:14 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 23:33:29 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 23:33:35 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-18 23:33:35 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-18 23:33:35 INFO  com.main.Main  - 1)search product 
+[main] 2021-08-18 23:33:35 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 23:33:35 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 23:33:35 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 23:33:40 INFO  com.main.Main  - welocome to product search
+[main] 2021-08-18 23:33:40 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:33:40 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:33:40 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:33:40 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-18 23:33:43 WARN  com.main.Main  - Invalid choice..choice 
+[main] 2021-08-18 23:33:43 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:33:43 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:33:43 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:33:43 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-18 23:45:47 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-18 23:45:47 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-18 23:45:47 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-18 23:45:47 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-18 23:45:47 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-18 23:45:47 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-18 23:45:47 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-18 23:46:04 INFO  com.main.Main  - login as a customer
+[main] 2021-08-18 23:46:04 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-18 23:46:21 INFO  com.main.Main  - Enter password
+[main] 2021-08-18 23:46:31 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-18 23:46:31 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-18 23:46:31 INFO  com.main.Main  - 1)search product 
+[main] 2021-08-18 23:46:31 INFO  com.main.Main  - 2)view order
+[main] 2021-08-18 23:46:31 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-18 23:46:31 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-18 23:46:35 INFO  com.main.Main  - welocome to product search
+[main] 2021-08-18 23:46:35 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:46:35 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:46:35 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:46:35 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-18 23:46:43 INFO  com.main.Main  - under construct
+[main] 2021-08-18 23:46:43 INFO  com.main.Main  - 1)By name
+[main] 2021-08-18 23:46:43 INFO  com.main.Main  - 2)By price
+[main] 2021-08-18 23:46:43 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-18 23:46:43 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-19 01:35:23 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-19 01:35:23 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 01:35:23 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 01:35:23 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 01:35:23 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 01:35:23 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 01:35:23 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 01:35:31 INFO  com.main.Main  - Register Customer
+[main] 2021-08-19 01:35:31 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-19 01:35:31 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 01:35:44 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 01:36:00 INFO  com.main.Main  - Enter Customer password 
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - Customer regestier successfully!!!
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - 
+Returning to Main Menu...
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - Register Customer
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-19 01:38:16 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 01:40:12 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 01:41:05 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-19 01:41:05 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-19 01:41:05 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-19 01:41:05 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-19 01:41:05 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-19 01:41:05 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-19 01:41:25 INFO  com.main.Main  - login as a customer
+[main] 2021-08-19 01:41:25 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-19 01:41:37 INFO  com.main.Main  - Enter password
+[main] 2021-08-19 01:41:49 INFO  com.main.Main  - login sucessfull welcome  suruchi
+[main] 2021-08-19 01:41:49 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-19 01:41:49 INFO  com.main.Main  - 1)search product 
+[main] 2021-08-19 01:41:49 INFO  com.main.Main  - 2)view order
+[main] 2021-08-19 01:41:49 INFO  com.main.Main  - 3)logout 
+[main] 2021-08-19 01:41:49 INFO  com.main.Main  - 4)Please enter your choice(1-4)
+[main] 2021-08-19 01:42:02 INFO  com.main.Main  - welocome to product search
+[main] 2021-08-19 01:42:02 INFO  com.main.Main  - 1)By name
+[main] 2021-08-19 01:42:02 INFO  com.main.Main  - 2)By price
+[main] 2021-08-19 01:42:02 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-19 01:42:02 INFO  com.main.Main  - 4)View cart
+[main] 2021-08-19 01:42:06 INFO  com.main.Main  - under construct
+[main] 2021-08-19 01:42:06 INFO  com.main.Main  - 1)By name
+[main] 2021-08-19 01:42:06 INFO  com.main.Main  - 2)By price
+[main] 2021-08-19 01:42:06 INFO  com.main.Main  - 3)By Category
+[main] 2021-08-19 01:42:06 INFO  com.main.Main  - 4)View cart
