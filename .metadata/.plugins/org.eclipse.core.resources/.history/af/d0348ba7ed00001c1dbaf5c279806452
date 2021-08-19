@@ -1,0 +1,117 @@
+package com.main;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import com.main.shop.model.Product;
+import com.repository.ProductRepository;
+import com.service.ProductService;
+import com.shop.exception.BusinessException;
+
+public class ProductCategoryPage {
+	private static Logger log = Logger.getLogger(ProductCategoryPage.class);
+	ProductRepository productCategoryRepository =new ProductService();
+	
+	Scanner scanner = new Scanner(System.in);
+		
+		
+	
+	
+	
+	   public void productCategoryList(int productCategoryOption) {
+		   switch(productCategoryOption)
+		   {
+			   case 1:log.info("Electronics");
+			   
+			   
+			   int Electronics=0;
+			   try {
+                   List<Product> productList = productCategoryRepository.viewProduct(1);
+                   if (productList != null) {
+                       for (Product product: productList) {
+                           log.info(" "+product.getProductId()+". "+product.getProductName());
+                       }
+                   }
+                   log.info("Enter your choice...");
+                   Electronics = Integer.parseInt(scanner.nextLine());
+                   
+                   
+                   
+               } catch (BusinessException | NumberFormatException e) {
+                   log.warn(e.getMessage());
+               }
+			   
+			   
+			   
+			   break;
+			   case 2: log.info("Mobile");
+			   int Mobile=0;
+			   try {
+                   List<Product> productList = productCategoryRepository.viewProduct(1);
+                   if (productList != null) {
+                       for (Product product: productList) {
+                           log.info(" "+product.getProductId()+". "+product.getProductName());
+                       }
+                   }
+                   log.info("Enter your choice...");
+                   Mobile = Integer.parseInt(scanner.nextLine());
+                   
+                   
+                   
+               } catch (BusinessException | NumberFormatException e) {
+                   log.warn(e.getMessage());
+               }
+			   
+			   
+			   break;
+			   case 3:log.info("Grocery");
+			   int Grocery=0;
+			   try {
+                   List<Product> productList = productCategoryRepository.viewProduct(1);
+                   if (productList != null) {
+                       for (Product product: productList) {
+                           log.info(" "+product.getProductId()+". "+product.getProductName());
+                       }
+                   }
+                   log.info("Enter your choice...");
+                   Electronics = Integer.parseInt(scanner.nextLine());
+                   
+                   
+                   
+               } catch (BusinessException | NumberFormatException e) {
+                   log.warn(e.getMessage());
+               }
+			   break;
+			   case 4:log.info("Furniture");
+			   int Furniture=0;
+			   try {
+                   List<Product> productList = productCategoryRepository.viewProduct(1);
+                   if (productList != null) {
+                       for (Product product: productList) {
+                           log.info(" "+product.getProductId()+". "+product.getProductName());
+                       }
+                   }
+                   log.info("Enter your choice...");
+                   Electronics = Integer.parseInt(scanner.nextLine());
+                   
+                   
+                   
+               } catch (BusinessException | NumberFormatException e) {
+                   log.warn(e.getMessage());
+               }
+			   break;
+			   default:
+			   
+			   log.info("Not valid choice");
+			  
+			   
+		   }
+		   
+		   
+	   }
+	
+	
+
+}

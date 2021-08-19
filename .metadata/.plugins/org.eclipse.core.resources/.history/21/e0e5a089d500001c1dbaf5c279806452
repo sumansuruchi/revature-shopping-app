@@ -1,0 +1,32 @@
+package com.main;
+
+import org.apache.log4j.Logger;
+
+public class ProductCategoryPage {
+	private static Logger log = Logger.getLogger(ProductCategoryPage.class);
+	
+	
+	   public void productCategoryList(int productCategoryOption) {
+		   switch(productCategoryOption)
+		   {
+			   case 1:log.info("");
+			   break;
+			   case 2: log.info("");
+			   break;
+			   case 3:log.info("");
+			   break;
+			   case 4:log.info("");
+			   break;
+			   default;
+			   
+			   log.info("Not valid choice");
+			  
+			   
+		   }
+		   
+		   
+	   }
+	
+	
+
+}

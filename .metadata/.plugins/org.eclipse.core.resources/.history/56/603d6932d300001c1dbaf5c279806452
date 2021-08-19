@@ -1,0 +1,14 @@
+package com.main;
+
+import java.util.List;
+
+import com.main.shop.model.Product;
+import com.shop.exception.BusinessException;
+
+public interface ProductCategoryPage {
+	
+	public List<Product> viewProduct() throws BusinessException;
+	
+	
+
+}

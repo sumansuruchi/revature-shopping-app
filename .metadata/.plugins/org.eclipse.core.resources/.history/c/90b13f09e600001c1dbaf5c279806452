@@ -1,0 +1,61 @@
+package com.main;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.main.shop.model.ProductCategory;
+import com.repository.ProductCategoryRepository;
+import com.shop.exception.BusinessException;
+
+public class ProductCategoryPage {
+	private static Logger log = Logger.getLogger(ProductCategoryPage.class);
+	ProductRepository productCategoryRepository =new ProductRepository(); 
+		
+		
+	
+	
+	
+	   public void productCategoryList(int productCategoryOption) {
+		   switch(productCategoryOption)
+		   {
+			   case 1:log.info("Electronics");
+			   int Electronics=0;
+			   try {
+                   List<Product> productList = productSearchRepository.searchProductByCategory(1);
+                   if (productList != null) {
+                       for (Product product: productList) {
+                           log.info("| "+product.getProductId()+". "+product.getProductName());
+                       }
+                   }
+                   log.info("+------------------------------+");
+                   log.info("| Enter your choice...         |");
+                   fashionProductChoice = Integer.parseInt(scanner.nextLine());
+                   log.info("+------------------------------+");
+                   log.info("");
+                   productPage.productDetails(fashionProductChoice, productCategoryChoice, customer);
+               } catch (BusinessException | NumberFormatException e) {
+                   log.warn(e.getMessage());
+               }
+			   
+			   
+			   break;
+			   case 2: log.info("Mobile");
+			   break;
+			   case 3:log.info("Grocery");
+			   break;
+			   case 4:log.info("Furniture");
+			   break;
+			   default:
+			   
+			   log.info("Not valid choice");
+			  
+			   
+		   }
+		   
+		   
+	   }
+	
+	
+
+}

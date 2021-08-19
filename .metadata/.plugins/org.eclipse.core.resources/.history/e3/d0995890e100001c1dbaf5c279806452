@@ -1,0 +1,46 @@
+package com.service;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.main.shop.model.Product;
+import com.main.shop.model.ProductCategory;
+import com.repository.ProductRepository;
+import com.shop.dbutil.Mysqlconnection;
+import com.shop.exception.BusinessException;
+
+public class ProductService implements ProductRepository  {
+
+	@Override
+	public List<Product> viewProduct() throws BusinessException {
+		List<Product> productList = new ArrayList();
+		try(Connection connection = Mysqlconnection.getConnection()){
+			String sql="select productId,productName,productPrice,productCategoryId from product";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while(resultSet.next())
+			{
+				Product product =new Product();
+				product.setProductId(resultSet.getInt("productId "));
+				product.setProductName(resultSet.getString("productName"));
+				product.setProductPrice(resultSet.getDouble("productPrice"));
+				ProductCategory productCategory = new ProductCategory();
+				product.setProductCategory(resultSet.getProductCategory().getId("productCategory"));
+				
+			}
+			
+
+		} catch (ClassNotFoundException  |SQLException e) {
+			// TODO Auto-generated catch block
+		log.warn(e.getMessage());
+		throw new BusinessException("internal error occur please contact");
+		} 
+		
+		return null;
+	}
+
+}

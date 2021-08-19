@@ -1,0 +1,54 @@
+package com.main;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.dao.impl.ProductSearchDAOImpl;
+import com.main.shop.model.Product;
+import com.shop.dbutil.Mysqlconnection;
+import com.shop.exception.BusinessException;
+
+public class ProductCategoryPageImpl implements ProductCategoryPage {
+	private static Logger log = Logger.getLogger(ProductCategoryPageImpl.class);
+
+	@Override
+	public List<Product> viewProduct() throws BusinessException {
+		
+			List<Product> productCategoriesList = new ArrayList();
+			try(Connection connection = Mysqlconnection.getConnection()){
+				String sql="select      productId,ProductName,ProductPrice,productCategoryId from product";
+				PreparedStatement preparedStatement = connection.prepareStatement(sql);
+				ResultSet resultSet = preparedStatement.executeQuery();
+				while(resultSet.next())
+				{
+					Product productList = new Product();
+					productList.setProductId(resultSet.getInt("productId"));
+					productList.setProductName(resultSet.getString("productName"));
+					productList.setProductPrice(resultSet.getDouble("productPrice"));
+					productList.setProductCategory(resultSet.getInt("productCategory"));
+					
+					productCategoriesList.add(productList);
+				}
+				
+				
+			} catch (ClassNotFoundException  |SQLException e) {
+				// TODO Auto-generated catch block
+			log.warn(e.getMessage());
+			throw new BusinessException("internal error occur please contact");
+			} 
+		
+		
+		
+		
+		
+		return null;
+	}
+	
+
+}

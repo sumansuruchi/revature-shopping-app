@@ -19,6 +19,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		ProductCategoryRepository productCategoryRepository = new ProductCategorySearch();
+		ProductCategoryPage productCategoryPage = new ProductCategoryPage();
 		CustomerDao customerDao = new Customerdaoimpl();
 		Scanner scanner = new Scanner(System.in);
 		log.info("Welcome to My Shopping app ");
@@ -75,6 +76,11 @@ public class Main {
 							 {
 								 log.info(productCategory);
 							 }
+							 int productCategoryOption=Integer.parseInt(scanner.nextLine());
+							 
+							 
+							 productCategoryPage.productCategoryList(productCategoryOption);
+							 
 								
 
 								
