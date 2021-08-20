@@ -1,0 +1,16 @@
+package com.service;
+
+import com.main.shop.model.Product;
+import com.repository.ProductSearch;
+import com.shop.exception.BusinessException;
+
+public class ProductSearchService implements ProductSearch {
+
+	@Override
+	public Product searchProductByProductId(int productId) throws BusinessException {
+		Product product=null;
+		product=
+		return null;
+	}
+
+}

@@ -45,5 +45,32 @@ public class ProductSearchDAOImpl  implements ProductSearchDAO{
 		return productCategoriesList;
 	}
 	
+	    @Override
+	    public Product searchProductByProductId(int productId) throws BusinessException {
+	        Product product = new Product();
+	        try(Connection connection = Mysqlconnection.getConnection()) {
+	            String sql = "SELECT pr.productId, pr.productName, pr.productPrice, pc.productCategoryId, pc.productCategoryName FROM shopping_app.products pr JOIN shopping_app.productcategory pc ON pr.productCategoryId = pc.productCategoryId WHERE pr.productId =?;";
+	            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+	            preparedStatement.setInt(1, productId);
+	            ResultSet resultSet = preparedStatement.executeQuery();
+	            if (resultSet.next()) {
+	                ProductCategory productCategoryObj = new ProductCategory();
+	                product.setProductId(resultSet.getInt("productId"));
+	                product.setProductName(resultSet.getString("productName"));
+	                product.setProductPrice(resultSet.getDouble("productPrice"));
+	                productCategoryObj.setProductCategoryId(resultSet.getInt("productCategoryId"));
+	                productCategoryObj.setProductCategoryName(resultSet.getString("productCategoryName"));
+	                product.setProductCategory(productCategoryObj);
+	            }
+	        } catch (ClassNotFoundException | SQLException e) {
+	            log.warn(e);
+	            throw new BusinessException("Internal error occurred! contact systemAdmin");
+	        }
+	        return product;
+	    
+
+		
+	}
+	
 
 }

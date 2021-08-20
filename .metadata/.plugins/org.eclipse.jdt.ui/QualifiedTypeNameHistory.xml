@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.shop.dbutil.Mysqlconnection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.service.ProductCategorySearch"/>
+<fullyQualifiedTypeName name="com.main.ProductCategoryPage"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.repository.ProductRepository"/>
+<fullyQualifiedTypeName name="com.main.shop.model.ProductCategory"/>
+<fullyQualifiedTypeName name="com.repository.ProductCategoryRepository"/>
+<fullyQualifiedTypeName name="com.repository.CartRepository"/>
+<fullyQualifiedTypeName name="com.service.CartService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.main.shop.model.Product"/>
+<fullyQualifiedTypeName name="com.main.shop.model.Customer"/>
+<fullyQualifiedTypeName name="com.dao.ProductDAO"/>
+<fullyQualifiedTypeName name="com.dao.impl.ProductSearchDAOImpl"/>
+<fullyQualifiedTypeName name="com.dao.ProductSearchDAO"/>
+<fullyQualifiedTypeName name="com.service.ProductSearchService"/>
+<fullyQualifiedTypeName name="com.shop.exception.BusinessException"/>
+</qualifiedTypeNameHistroy>
