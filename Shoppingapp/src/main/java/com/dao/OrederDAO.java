@@ -6,6 +6,7 @@ import com.main.shop.model.Product;
 import com.shop.exception.BusinessException;
 
 public interface OrederDAO {
+	
 	 public int addProductToOrder(Product product, Customer customer, Cart cart, int orderStatus) throws BusinessException;
 	
 

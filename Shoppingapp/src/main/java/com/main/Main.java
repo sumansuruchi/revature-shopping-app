@@ -7,7 +7,10 @@ import org.apache.log4j.Logger;
 
 import com.customer.dao.CustomerDao;
 import com.customer.dao.impl.Customerdaoimpl;
+import com.main.shop.model.Cart;
 import com.main.shop.model.Customer;
+import com.main.shop.model.Order;
+import com.main.shop.model.Product;
 import com.main.shop.model.ProductCategory;
 import com.repository.ProductCategoryRepository;
 import com.service.ProductCategorySearch;
@@ -20,6 +23,7 @@ public class Main {
 		ProductCategoryRepository productCategoryRepository = new ProductCategorySearch();
 		ProductCategoryPage productCategoryPage = new ProductCategoryPage();
 		CustomerDao customerDao = new Customerdaoimpl();
+		OrderPage orderPage = new OrderPage();
 		Scanner scanner = new Scanner(System.in);
 		log.info("Welcome to My Shopping app ");
 		int ch = 0;
@@ -84,6 +88,11 @@ public class Main {
 							break;
 						case 2:
 							log.info("My order");
+							
+							
+							
+						
+							
 							break;
 						case 3:
 							log.info("Nice to meet you");
@@ -113,7 +122,7 @@ public class Main {
 					Customer customer = new Customer();
 					log.info("Enter Customer Details ");
 
-					log.info("Enter Customer username ");
+					log.info("Enter Customer Name ");
 					String customerName = scanner.nextLine();
 					customer.setCustomerName(customerName);
 

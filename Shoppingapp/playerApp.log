@@ -1218,3 +1218,95 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [main] 2021-08-20 11:41:36 INFO  com.main.ProductCategoryPage  -  2. Inverter
 [main] 2021-08-20 11:41:36 INFO  com.main.ProductCategoryPage  -  3. Refrigerator
 [main] 2021-08-20 11:41:36 INFO  com.main.ProductCategoryPage  - Enter your choice...
+[main] 2021-08-20 12:48:11 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-20 12:48:11 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 12:48:11 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 12:48:11 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 12:48:11 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 12:48:11 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 12:48:11 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 12:48:23 INFO  com.main.Main  - Register Customer
+[main] 2021-08-20 12:48:23 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-20 12:48:23 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-20 12:48:33 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-20 12:49:08 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-20 12:49:08 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 12:49:08 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 12:49:08 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 12:49:08 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 12:49:08 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 12:49:08 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 12:49:23 INFO  com.main.Main  - Register Customer
+[main] 2021-08-20 12:49:23 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-20 12:49:23 INFO  com.main.Main  - Enter Customer Name 
+[main] 2021-08-20 12:49:30 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-20 12:49:45 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 12:49:45 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 12:49:45 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 12:49:45 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 12:49:45 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 12:49:45 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 12:50:11 INFO  com.main.Main  - login as a customer
+[main] 2021-08-20 12:50:11 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-20 12:50:18 INFO  com.main.Main  - login sucessfull welcome  4
+[main] 2021-08-20 12:50:18 INFO  com.main.Main  - what you wanna do
+[main] 2021-08-20 12:50:18 INFO  com.main.Main  - 1) All Category 
+[main] 2021-08-20 12:50:18 INFO  com.main.Main  - 2) My order
+[main] 2021-08-20 12:50:18 INFO  com.main.Main  - 3) My Cart 
+[main] 2021-08-20 12:50:18 INFO  com.main.Main  - 4) Logout
+[main] 2021-08-20 12:50:18 INFO  com.main.Main  -  Please enter your choice(1-4)
+[main] 2021-08-20 12:50:37 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-20 12:50:37 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 12:50:37 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 12:50:37 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 12:50:37 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 12:50:37 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 12:50:37 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 12:50:53 INFO  com.main.Main  - Register Customer
+[main] 2021-08-20 12:50:53 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-20 12:50:53 INFO  com.main.Main  - Enter Customer Name 
+[main] 2021-08-20 12:51:03 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-20 12:51:15 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 12:51:15 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 12:51:15 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 12:51:15 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 12:51:15 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 12:51:15 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 13:04:08 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-20 13:04:08 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 13:04:08 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 13:04:08 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 13:04:08 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 13:04:08 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 13:04:08 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 13:04:21 INFO  com.main.Main  - Register Customer
+[main] 2021-08-20 13:04:21 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-20 13:04:21 INFO  com.main.Main  - Enter Customer Name 
+[main] 2021-08-20 13:04:33 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-20 13:05:12 INFO  com.main.Main  - Enter Customer password 
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - Customer regestier successfully!!!
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - 
+Returning to Main Menu...
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 13:05:27 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 14:23:31 INFO  com.main.Main  - Welcome to My Shopping app 
+[main] 2021-08-20 14:23:31 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 14:23:31 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 14:23:31 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 14:23:31 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 14:23:31 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 14:23:31 INFO  com.main.Main  - 5)Please enter your choice(1-4)
+[main] 2021-08-20 14:23:43 INFO  com.main.Main  - Register Customer
+[main] 2021-08-20 14:23:43 INFO  com.main.Main  - Enter Customer Details 
+[main] 2021-08-20 14:23:43 INFO  com.main.Main  - Enter Customer Name 
+[main] 2021-08-20 14:24:34 INFO  com.main.Main  - Enter Customer username 
+[main] 2021-08-20 14:24:55 INFO  com.main.Main  - Welcome to Main Menu 
+[main] 2021-08-20 14:24:55 INFO  com.main.Main  - 1)Login as customer 
+[main] 2021-08-20 14:24:55 INFO  com.main.Main  - 2)Login as Employee 
+[main] 2021-08-20 14:24:55 INFO  com.main.Main  - 3)Register as customer 
+[main] 2021-08-20 14:24:55 INFO  com.main.Main  - 4)exit 
+[main] 2021-08-20 14:24:55 INFO  com.main.Main  - 5)Please enter your choice(1-4)

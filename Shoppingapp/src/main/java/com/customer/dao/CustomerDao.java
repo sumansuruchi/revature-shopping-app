@@ -7,6 +7,8 @@ public interface CustomerDao {
 	int registerCustomer(Customer customer)throws BusinessException;
 	boolean isUserAlreadyExist(String customerUserame) throws BusinessException;
 	boolean isPasswaordAlreadyExist(String  customerPassword) throws BusinessException;
+	public int createCustomer(Customer customer) throws BusinessException;
+    public int deleteCustomer(int customerId);
 	   
 	
 	

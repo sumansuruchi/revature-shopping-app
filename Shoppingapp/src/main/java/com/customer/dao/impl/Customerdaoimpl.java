@@ -78,5 +78,32 @@ public class Customerdaoimpl implements CustomerDao {
 	
 		return false;
 	}
+	@Override
+    public int createCustomer(Customer customer) throws BusinessException {
+        int isSucessfull;
+        try(Connection connection = Mysqlconnection.getConnection()) {
+            String sql = "INSERT INTO Customer(customerName, customerUsername, customerPassword) VALUES (?,?,?)";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, customer.getCustomerName());
+            preparedStatement.setString(2, customer.getCustomerUsername());
+            preparedStatement.setString(3, customer.getCustomerPassword());
+
+            isSucessfull = preparedStatement.executeUpdate();
+            if (isSucessfull == 0) {
+                throw new BusinessException("Customer creation failed! Check your query and try again!!!");
+            }
+        } catch (ClassNotFoundException | SQLException e) {
+            log.warn(e);
+            throw new BusinessException("Internal error occurred! contact systemAdmin");
+        }
+        return isSucessfull;
+    }
+
+    @Override
+    public int deleteCustomer(int customerId) {
+        return 0;
+    }
+
+   
 
 }
