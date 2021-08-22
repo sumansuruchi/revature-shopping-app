@@ -1,0 +1,28 @@
+package com.main.shop.model;
+
+public class EmployeeLogin {
+	private int employeeUserName;
+	private int employeePassword;
+	public EmployeeLogin() {
+		
+	}
+	public int getEmployeeUserName() {
+		return employeeUserName;
+	}
+	public void setEmployeeUserName(int employeeUserName) {
+		this.employeeUserName = employeeUserName;
+	}
+	public int getEmployeePassword() {
+		return employeePassword;
+	}
+	public void setEmployeePassword(int employeePassword) {
+		this.employeePassword = employeePassword;
+	}
+	@Override
+	public String toString() {
+		return "EmployeeLogin [employeeUserName=" + employeeUserName + ", employeePassword=" + employeePassword + "]";
+	}
+	
+	
+
+}

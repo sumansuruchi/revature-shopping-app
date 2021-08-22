@@ -7,7 +7,7 @@ import com.shop.exception.BusinessException;
 
 public interface OrederDAO {
 	
-	 public int addProductToOrder(Product product, Customer customer, Cart cart, int orderStatus) throws BusinessException;
+	 public int addProductToOrder(Product product, Customer customer, Cart cart) throws BusinessException;
 	
 
 }

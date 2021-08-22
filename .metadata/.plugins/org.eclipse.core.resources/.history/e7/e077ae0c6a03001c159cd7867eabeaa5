@@ -1,0 +1,20 @@
+package com.service;
+
+import com.repository.EmployeeRepository;
+import com.shop.exception.BusinessException;
+
+public class EmployeeService  implements EmployeeRepository{
+
+	@Override
+	public boolean isEmployeeAlreadyExist(String employeeUserName) throws BusinessException {
+		
+		return employeeUserName.equals("Admin");
+	}
+
+	@Override
+	public boolean isPasswaordAlreadyExist(String employeePassword) throws BusinessException {
+		
+		return employeePassword.equals("Admin@123");
+	}
+
+}

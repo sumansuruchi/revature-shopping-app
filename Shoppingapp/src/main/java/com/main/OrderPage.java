@@ -13,11 +13,11 @@ import com.shop.exception.BusinessException;
 public class OrderPage {
 	private static final Logger log = Logger.getLogger(CartPage.class);
 	OrderRepository orderRepository = new OrderService();
-	public void addOrder(Product product, Customer customer, Cart cart, int orderStatus) {
+	public void addOrder(Product product, Customer customer, Cart cart) {
         int isSucessfull;
         Order order = new Order();
         try {
-            isSucessfull = orderRepository.addProductToOrder(product, customer, cart, orderStatus);
+            isSucessfull = orderRepository.addProductToOrder(product, customer, cart);
             if (isSucessfull == 1) {
                 log.info("Your order information.");
                 

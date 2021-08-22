@@ -15,9 +15,9 @@ public class OrderService  implements OrderRepository{
 	@Override
 	
 	    
-	    public int addProductToOrder(Product product, Customer customer, Cart cart, int orderStatus) throws BusinessException {
+	    public int addProductToOrder(Product product, Customer customer, Cart cart) throws BusinessException {
 	        int isSucessfull;
-	        isSucessfull = orderDAO.addProductToOrder(product, customer, cart, orderStatus);
+	        isSucessfull = orderDAO.addProductToOrder(product, customer, cart);
 	        return isSucessfull;
 	}
 

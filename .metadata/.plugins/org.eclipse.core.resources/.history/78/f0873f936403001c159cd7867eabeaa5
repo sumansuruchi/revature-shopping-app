@@ -1,0 +1,10 @@
+package com.repository;
+
+import com.shop.exception.BusinessException;
+
+public interface EmployeeRepository {
+	boolean isEmployeeAlreadyExist(String employeeUserName) throws BusinessException;
+	boolean isPasswaordAlreadyExist(String  employeePassword) throws BusinessException;
+	
+
+}

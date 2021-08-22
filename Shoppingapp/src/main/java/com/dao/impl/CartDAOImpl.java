@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,18 +45,18 @@ public class CartDAOImpl  implements CartDAO{
 	public int addProductToCart(Cart cart) throws BusinessException {
 		int isuscessful=0;
 		try(Connection connection = Mysqlconnection.getConnection()) {
-            String sql = "INSERT INTO shopping_app.cart(cartProductId, cartCustomerId, cartQuantity, cartTotal) VALUES (?,?,?,?)";
+            String sql = "INSERT INTO shopping_app.cart(cartProductId,cartQuantity, cartTotal) VALUES (?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1,cart.getProduct().getProductId());
-            preparedStatement.setInt(2,cart.getCustomer().getCustomerId());
-            preparedStatement.setInt(3,cart.getCartQuantity());
-            preparedStatement.setDouble(4,cart.getCartTotal());
+            preparedStatement.setInt(2,cart.getCartQuantity());
+            preparedStatement.setDouble(3,cart.getCartTotal());
              
             isuscessful=preparedStatement.executeUpdate();
             
+            
         } catch (ClassNotFoundException | SQLException e) {
             log.warn(e.getMessage());
-            throw new BusinessException("Internal error occurred! contact systemAdmin");
+            
         }
         return isuscessful;
 		

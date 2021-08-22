@@ -15,6 +15,7 @@ public class CartPage {
 	private static Logger log = Logger.getLogger(CartPage.class);
 	CartRepository cartRepository = new CartService();
 	ProductSearch productSearch= new ProductSearchService();
+	OrderPage orderPage = new OrderPage();
 	
 
 	public void addProductToCard(int productQuantity, int productId)  {
@@ -31,18 +32,23 @@ public class CartPage {
 		cart.setCustomer(customer);
 		isuccessfull=cartRepository.addProductToCart(cart);
 		if(isuccessfull==1) {
-			log.info("Sucessfull  " +product.getProductName());
+			log.info("Sucessfull  " +product.getProductName() + " "+cart.getCartQuantity());
 		}
+		log.info("order");
+		orderPage.addOrder(product, customer, cart);
+		
 		}catch (BusinessException e) {
 			// TODO: handle exception
 			log.warn(e.getMessage());
 			
 		}
+	}
+	
 		
 		
 		
 	
 	
 
-	}
+	
 }

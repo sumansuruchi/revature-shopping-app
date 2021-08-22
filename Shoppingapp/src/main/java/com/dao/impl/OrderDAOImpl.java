@@ -17,17 +17,17 @@ public class OrderDAOImpl implements OrederDAO {
 	private static final Logger log = Logger.getLogger(OrderDAOImpl.class);
 
 	@Override
-	public int addProductToOrder(Product product, Customer customer, Cart cart, int orderStatus)
+	public int addProductToOrder(Product product, Customer customer, Cart cart)
 			throws BusinessException {
 		int isSucessfull;
         try(Connection connection = Mysqlconnection.getConnection()) {
-            String sql = "INSERT INTO order(orderCustomerId, orderProductId, orderQuantity, orderTotal, orderStatusId) VALUES (?,?,?,?,?)";
+            String sql = "INSERT INTO order(orderCustomerId, orderQuantity, orderTotal) VALUES (?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, customer.getCustomerId());
-            preparedStatement.setInt(2, product.getProductId());
-            preparedStatement.setInt(3, cart.getCartQuantity());
-            preparedStatement.setDouble(4, cart.getCartTotal());
-            preparedStatement.setInt(5, orderStatus);
+            
+            preparedStatement.setInt(2, cart.getCartQuantity());
+            preparedStatement.setDouble(3, cart.getCartTotal());
+            
 
             isSucessfull = preparedStatement.executeUpdate();
         } catch (ClassNotFoundException | SQLException e) {

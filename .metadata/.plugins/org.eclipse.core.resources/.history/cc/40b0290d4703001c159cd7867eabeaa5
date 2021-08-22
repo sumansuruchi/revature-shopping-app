@@ -1,0 +1,10 @@
+package com.dao;
+
+import com.shop.exception.BusinessException;
+
+public interface EmployeeDAO {
+	boolean isEmployeeAlreadyExist(String employeeUserName) throws BusinessException;
+	boolean isPasswaordAlreadyExist(String  employeePassword) throws BusinessException;
+	
+
+}

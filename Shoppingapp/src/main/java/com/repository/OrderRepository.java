@@ -6,6 +6,6 @@ import com.main.shop.model.Product;
 import com.shop.exception.BusinessException;
 
 public interface OrderRepository {
-	public int addProductToOrder(Product product, Customer customer, Cart cart, int orderStatus) throws BusinessException;
+	public int addProductToOrder(Product product, Customer customer, Cart cart) throws BusinessException;
 
 }

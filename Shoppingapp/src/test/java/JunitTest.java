@@ -1,3 +1,4 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
@@ -29,21 +30,33 @@ class JunitTest{
 		fail("Not yet implemented");
 	}
 	@Test
-    public void customerPasswordValidationWithCorrectData() {
+    public void customerUserNameValidationWithCorrectData() {
         try {
-        	assertTrue(customerDao.isUserAlreadyExist("suruchi"));
+        	assertEquals("suruchi", customerDao.isUserAlreadyExist("suruchi"));
         } catch (BusinessException e) {
             System.out.println(e.getMessage());
         }
     }
 
     @Test
-    public void customerPasswordValidationWithIncorrectData() {
+    public void customerUserNameValidationWithIncorrectData() {
         try {
             assertFalse(customerDao.isUserAlreadyExist("Drrrrr"));
         } catch (BusinessException e) {
             
         }
+    }
+    @Test
+    public void customerUsernameValidationWithIncorrectData() {
+        try {
+            assertFalse(customerRepository.isValidCustomerUsername("1"));
+        } catch (BusinessException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    @Test
+    public void sum() {
+    	assertEquals(7, 7);
     }
 
 }

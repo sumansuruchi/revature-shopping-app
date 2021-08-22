@@ -11,12 +11,17 @@
 <fullyQualifiedTypeName name="com.repository.ProductCategoryRepository"/>
 <fullyQualifiedTypeName name="com.repository.CartRepository"/>
 <fullyQualifiedTypeName name="com.service.CartService"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.main.shop.model.Product"/>
 <fullyQualifiedTypeName name="com.main.shop.model.Customer"/>
 <fullyQualifiedTypeName name="com.dao.ProductDAO"/>
 <fullyQualifiedTypeName name="com.dao.impl.ProductSearchDAOImpl"/>
 <fullyQualifiedTypeName name="com.dao.ProductSearchDAO"/>
 <fullyQualifiedTypeName name="com.service.ProductSearchService"/>
 <fullyQualifiedTypeName name="com.shop.exception.BusinessException"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="com.main.shop.model.Product"/>
+<fullyQualifiedTypeName name="com.main.shop.model.Order"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.service.CustomerService"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="com.main.OrderPage"/>
 </qualifiedTypeNameHistroy>

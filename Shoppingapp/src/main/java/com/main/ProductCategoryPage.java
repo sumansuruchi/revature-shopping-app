@@ -40,6 +40,9 @@ public class ProductCategoryPage {
 				 electronicsProductId = Integer.parseInt(scanner.nextLine());
 				 log.info("enter your quantity");
 				 int electronicProductQuantity =Integer.parseInt(scanner.nextLine());
+				 
+				 
+				 
 				cartPage.addProductToCard(electronicProductQuantity,  electronicsProductId);
 			} catch (BusinessException | NumberFormatException e) {
 				log.warn(e.getMessage());

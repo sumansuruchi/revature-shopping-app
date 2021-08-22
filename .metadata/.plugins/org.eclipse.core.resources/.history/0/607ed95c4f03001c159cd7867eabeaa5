@@ -1,0 +1,38 @@
+package com.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+public class EmployeeLoginPage {
+	private static Logger log = Logger.getLogger(EmployeeLoginPage.class);
+	Scanner scanner = new Scanner(System.in);
+	public void EmployeeOperation(int employeeOption)
+	{
+		do
+		{log.info("1) Add product ");
+		log.info("2) Delete product");
+		log.info("3) update customer status ");
+		log.info("4) Logout");
+		log.info(" Please enter your choice(1-4)");
+			
+			switch(employeeOption)
+			{
+			case 1: log.info("");
+			break;
+			case 2: log.info("");
+			break;
+			case 3:log.info("");
+			break;
+			case 4: log.info("");
+			break;
+			
+			default:
+				log.info("Not Valid Choice");
+			}
+		}while(employeeOption!=4);
+	}
+	
+	
+
+}
